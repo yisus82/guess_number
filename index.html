@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Number</title>
+  </head>
+
+  <body>
+    <h1>Guess Number</h1>
+    <p id="message"></p>
+    <form id="numberForm">
+      <input type="number" name="guessNumber" id="guessNumber" />
+      <button type="submit">Submit</button>
+    </form>
+    <div>
+      <div>
+        <h2>List of attempts:</h2>
+        <ul id="attemptList"></ul>
+      </div>
+      <div>
+        <form id="optionForm">
+          <input type="radio" name="easy" id="easyOption" /><label for="easyOption">1 - 10 (3 attempts)</label>
+          <input type="radio" name="medium" id="mediumOption" /><label for="mediumOption">1 - 50 (5 attempts)</label>
+          <button type="submit">Select option</button>
+        </form>
+      </div>
+    </div>
+  </body>
+
+</html>
